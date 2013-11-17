@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<item name="headerContainer" type="id">headerContainer</item><item name="footerContainer" type="id">footerContainer</item>
+    <item name="mainComponent" type="id">mainComponent</item>
+    <item name="message" type="id">message</item>
+    <item name="droid" type="id">droid</item>
+</resources>

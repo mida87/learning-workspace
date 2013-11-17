@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HelloDroid</string>
+    <string name="welcomeText">Hello Droid</string>
+    <string name="welcomeButton">Don\'t touch !</string>
+    <string name="welcomeButtonAfterTouch">Touch here</string>
+    <string name="headerText">This app is called Hello Droid</string>
+    <string name="droidImageDesc">Image of a Droid</string>
+    <string name="footerText">... footer ...</string>
+    <string name="message">Don\'t touch the droid</string>
+    <string name="messageAfterTouch">You touched it !</string>
+</resources>
