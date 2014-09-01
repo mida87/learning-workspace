@@ -2,6 +2,9 @@ package com.ericsson.learning.designpatterns.composite;
 
 import java.util.Iterator;
 
+/**
+ * COMPOSITE: Leaf
+ * */
 public class MenuItem extends MenuComponent {
     String name;
     String description;

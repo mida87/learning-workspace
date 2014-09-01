@@ -2,6 +2,9 @@ package com.ericsson.learning.designpatterns.facade;
 
 import com.ericsson.learning.designpatterns.facade.appliances.*;
 
+/**
+ * FACADE: Facade - simplifies usage of underlying complex system
+ * */
 public class HomeTheaterFacade {
     Amplifier amp;
     Tuner tuner;

@@ -1,5 +1,8 @@
 package com.ericsson.learning.designpatterns.adapter;
 
+/**
+ * ADAPTER: Concrete Adapter - implements Adapter methods
+ * */
 public class TurkeyAdapter implements Duck {
     Turkey turkey;
 

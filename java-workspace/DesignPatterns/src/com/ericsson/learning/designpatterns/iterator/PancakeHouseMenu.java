@@ -3,6 +3,9 @@ package com.ericsson.learning.designpatterns.iterator;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+/**
+ * ITERATOR: Concrete Aggregate
+ * */
 public class PancakeHouseMenu implements Menu {
     ArrayList<MenuItem> menuItems;
 

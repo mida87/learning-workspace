@@ -3,6 +3,9 @@ package com.ericsson.learning.designpatterns.composite;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+/**
+ * COMPOSITE: Component
+ * */
 public class Menu extends MenuComponent {
     ArrayList<MenuComponent> components = new ArrayList();
     String name;

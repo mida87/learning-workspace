@@ -1,5 +1,8 @@
 package com.ericsson.learning.designpatterns.adapter;
 
+/**
+ * ADAPTER: Client - Uses adapter to communicate with adaptee (without knowing it)
+ * */
 public class DuckTestDrive {
     public static void main(String[] args) {
         MallardDuck duck = new MallardDuck();

@@ -2,6 +2,9 @@ package com.ericsson.learning.designpatterns.iterator;
 
 import java.util.Iterator;
 
+/**
+ * ITERATOR: Concrete Aggregate
+ * */
 public class DinnerMenu implements Menu {
     static final int MAX_ITEMS = 6;
     int numberOfItems = 0;

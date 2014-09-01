@@ -3,6 +3,9 @@ package com.ericsson.learning.designpatterns.iterator;
 import java.util.Hashtable;
 import java.util.Iterator;
 
+/**
+ * ITERATOR: Concrete Aggregate
+ * */
 public class CaffeMenu implements Menu {
     Hashtable items = new Hashtable();
 

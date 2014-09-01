@@ -2,6 +2,9 @@ package com.ericsson.learning.designpatterns.iterator;
 
 import java.util.Iterator;
 
+/**
+ * ITERATOR: Concrete Iterator
+ * */
 public class DinnerMenuIterator implements Iterator {
     MenuItem[] items;
     int position = 0;

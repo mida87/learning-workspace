@@ -2,6 +2,9 @@ package com.ericsson.learning.designpatterns.composite;
 
 import java.util.Iterator;
 
+/**
+ * COMPOSITE: Component interface
+ * */
 public abstract class MenuComponent {
     public void add(MenuComponent component) {
         throw new UnsupportedOperationException();

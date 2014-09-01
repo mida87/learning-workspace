@@ -3,6 +3,9 @@ package com.ericsson.learning.designpatterns.iterator;
 import java.util.Calendar;
 import java.util.Iterator;
 
+/**
+ * ITERATOR: Concrete Iterator
+ * */
 public class AlternatingDinnerMenuIterator implements Iterator {
     MenuItem[] items;
     int position = 0;

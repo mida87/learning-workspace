@@ -2,6 +2,9 @@ package com.ericsson.learning.designpatterns.iterator;
 
 import java.util.Iterator;
 
+/**
+ * ITERATOR: Client
+ * */
 public class Waitress {
     Menu pancakeHouseMenu;
     Menu dinnerMenu;
