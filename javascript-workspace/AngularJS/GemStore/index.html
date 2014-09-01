@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="store">
+<head>
+	<meta charset="utf-8">
+	<title>Gem Store</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<script type="text/javascript" src="angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="products.js"></script>
+	<style type="text/css" media="screen">
+		.ng-invalid.ng-dirty {
+			border-color: #FA787E;
+		}
+		.ng-valid.ng-dirty {
+			border-color: #78FA89;
+		}
+	</style>
+</head>
+<body ng-controller="StoreController as store">
+	<!--  Store Header  -->
+	<header>
+		<h1 class="text-center">Flatlander Crafted Gems</h1>
+		<h2 class="text-center">– an Angular store –</h2>
+	</header>
+
+	<!--  Products Container  -->			
+	<div class="list-group">
+		<!--  Product Container  -->
+		<div class="list-group-item" ng-repeat="product in store.products | orderBy:'+price'">
+			<product-title></product-title>			
+
+			<product-gallery></product-gallery>
+
+			<product-tabs></product-tabs>
+		</div>
+	</div>
+</body>
+</html>
